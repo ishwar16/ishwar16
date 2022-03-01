@@ -1,0 +1,131 @@
+/* CSS file of Calculator Project
+ Project : Oasis Infobyte, Web Dev, Level 2 : Task 1
+ Code by Ishwar Shrinivas Gujjarwar, dated 15th Feb, 2022
+*/
+
+    html,body {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        user-select: none;
+        background: #1e2020;
+    }
+
+    .container 
+    {   margin-left: 1.8em;
+        padding: 20px;
+        border-radius: 40px;
+        box-shadow:  -31px -31px 61px #0d3445,
+        31px 31px 61px #29aae1;}
+
+    .content 
+    {
+        width: 100%;
+        margin-top: 1.7em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .row button 
+    {
+        width: 120px;
+        height: 60px;
+        font-size: 30px;
+        border: none;
+        outline: none;
+        margin: 5px;
+        color: #fff;
+        background-color: black;
+        border-radius: 20px;
+        transition: .1s;
+        border-radius: 50px;
+        background: #15141a;
+        box-shadow: inset 20px 20px 60px #121116,
+                    inset -20px -20px 60px #18171e;                
+    }
+
+    .row button:hover 
+    {
+        color: #000;
+        box-shadow:  inset 5px 5px 8px rgba(16, 16, 16, .1),
+                     inset -5px -5px 8px #fff;
+        background: #fff;
+    }
+
+    .display #screen 
+    {
+        margin-bottom: .5em;
+        width: 96%;
+        height: 70px;
+        font-size: 40px;
+        outline: none;
+        border: none;
+        text-align: right;
+        padding-right: .5em;
+        background: #ecf0f3;
+        border-radius: 20px;
+        box-shadow: inset 8px 8px 8px #cbced1,
+                    inset -8px -8px 8px #ffffff;
+    }
+
+    #eval 
+    {
+        border-radius: 48px;
+        background: #1b6f93;
+        box-shadow: inset -31px -31px 61px #134d65,
+                    inset 31px 31px 61px #2391c1;
+    }
+
+    #eval:hover 
+    {
+        box-shadow: inset 5px 5px 8px #4cb0ce,
+                    inset -5px -5px 8px #2b77da;
+    }
+
+    #ac 
+    {
+        border-radius: 50px;
+        background: #bc3434;
+        box-shadow: inset 20px 20px 60px #a02c2c,
+                    inset -20px -20px 60px #d83c3c;
+    }
+
+    #ac:hover 
+    {
+        box-shadow: inset 5px 5px 8px #d43621,
+                    inset -5px -5px 8px #df2a2a;
+    }
+
+    #ce 
+    {
+        border-radius: 50px;
+        background: #4cd65c;
+        box-shadow: inset 20px 20px 60px #41b64e,
+            inset -20px -20px 60px #57f66a;
+    }
+
+    #ce:hover 
+    {
+          box-shadow: inset 5px 5px 8px #0fe73e,
+                      inset -5px -5px 8px #44ff33;
+    }
+
+    h1 {
+        text-align: center;
+        color: wheat;
+        font-size: 50px;
+    }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(7, 50, 70);
+        color: wheat;
+        text-align: center;
+    }
