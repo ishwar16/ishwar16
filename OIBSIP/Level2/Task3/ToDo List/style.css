@@ -1,0 +1,79 @@
+/* CSS file of To-Do List Project
+ Project : Oasis Infobyte, Web Dev, Level 2 : Task 3
+ Code by Ishwar Shrinivas Gujjarwar, dated 16th Feb, 2022
+*/
+
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 700px;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: 000;
+}
+
+#inputField {
+    width: 390px;
+    height: 60px;
+    padding-left: 25px;
+    border-radius: 30px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 35px;
+    vertical-align: middle;
+}
+
+#addToDo {
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    color: #fff;
+    background-color: black;
+    border-radius: 20px;
+    transition: .1s;
+    border-radius: 48px;
+    background: #af9023;
+    box-shadow: inset -31px -31px 61px #796318,
+                inset 31px 31px 61px #e5bd2e;
+}
+
+.paragraph-styling {
+    margin: 0;
+    width: auto;
+    cursor: pointer;
+    color: rgb(241, 217, 77);
+    font-size: 40px;
+}
+
+.to-dos {
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: bisque;
+}
+
+h3{
+    color: #fff;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(7, 50, 70);
+    color: wheat;
+    text-align: center;
+}
